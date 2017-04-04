@@ -10,6 +10,8 @@ Interested? Check it out. (Right now the instructions on the BS Detector page ar
 
 I really feel like I’ve done something good for humanity with this. Hopefully more people will start fact-checking Bad Statements themselves and rumors before they post them on Facebook, so people like me don’t have to harsh on them anymore for not checking Snopes first.
 
+As of this writing, the Internet Bad Statements detector is live on the web at https://bsdetector.info
+
 *** For webmasters: 
 
 Here’s where it gets neat. KupieTools is handcrafted artisanal portable code, including features which I have not yet documented, but which allow webmasters to copy and host any tool on their own servers with zero configuration and no futzing around required… one single file serves all necessary scripts and images, allows you to download its php source and repost on your own server, automagically updates its self-contained bookmarklet code to work from wherever you put it, and even provides update alerts when the copy you got it from has been updated to a newer version.
