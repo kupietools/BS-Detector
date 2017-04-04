@@ -14,7 +14,7 @@ As of this writing, the Internet Bad Statements detector is live on the web at h
 
 *** For webmasters: 
 
-Here’s where it gets neat. KupieTools is handcrafted artisanal portable code, including features which I have not yet documented, but which allow webmasters to copy and host any tool on their own servers with zero configuration and no futzing around required… one single file serves all necessary scripts and images, allows you to download its php source and repost on your own server, automagically updates its self-contained bookmarklet code to work from wherever you put it, and even provides update alerts when the copy you got it from has been updated to a newer version.
+Here’s where it gets neat. KupieTools Bad Statements Detector is handcrafted artisanal portable code, including features which I have not yet documented, but which allow webmasters to copy and host any tool on their own servers with zero configuration and no futzing around required… one single file serves all necessary scripts and images, allows you to download its php source and repost on your own server, automagically updates its self-contained bookmarklet code to work from wherever you put it, and even provides update alerts when the copy you got it from has been updated to a newer version. [er, that last bit hasn't been implemented yet.]
 
 It also provides a plug-and-play framework if you develop your own javascript apps… simply enter your javascript code and HTML pages in a function within the file. It automatically gets deployed as a bookmarklet, with the built-in advantages of absolute portability, update checking, and more. Its complete portability and upstream version checking present a new peer-to-peer model of software distribution.
 
