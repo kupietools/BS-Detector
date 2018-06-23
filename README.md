@@ -19,3 +19,8 @@ Here’s where it gets neat. KupieTools Bad Statements Detector is handcrafted a
 It also provides a plug-and-play framework if you develop your own javascript apps… simply enter your javascript code and HTML pages in a function within the file. It automatically gets deployed as a bookmarklet, with the built-in advantages of absolute portability, update checking, and more. Its complete portability and upstream version checking present a new peer-to-peer model of software distribution.
 
 These features will be activated as soon as I’ve got the code tidy enough that I’m not embarrassed at the thought of someone seeing it.
+
+#I AM
+Michael E. Kupietz, FileMaker Pro Consultant
+https://www.kupietz.com
+github.com/kupietools
