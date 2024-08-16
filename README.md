@@ -1,6 +1,6 @@
 # BS-Detector
 
-**The Internet Bad Statements Detector is a self-hosted tool to help you fact-check info you find online before you pass it along on social media or elsewhere.**
+**The Internet Bad Statements Detector is a self-hosted PHP-based tool to help you fact-check info you find online before you pass it along on social media or elsewhere.**
 
 The BS Detector is designed to aid in online research and to help prevent people from passing along nonsense on the internet, by making it easier to look stuff up on Snopes.com, Politifact, FactCheck.org, and other myth-busting websites all at once.
 
