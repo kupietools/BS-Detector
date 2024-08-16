@@ -21,7 +21,7 @@ It also provides a plug-and-play framework if you develop your own javascript ap
 These features will be activated as soon as I’ve got the code tidy enough that I’m not embarrassed at the thought of someone seeing it.
 
 # I am
-Michael E. Kupietz, software engineering, consulting, & support for FileMaker Pro, Full-Stack Web, Desktop OS, & TradingView platforms  
+Michael E. Kupietz, software engineering, Certified FileMaker Pro Developer & Full-Stack Web Developer  
 https://kupietz.com (Business info)  
 https://github.com/kupietools (Free software)  
 https://michaelkupietz.com (Personal & creative showcase)  
