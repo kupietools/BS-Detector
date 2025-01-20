@@ -20,9 +20,78 @@ It also provides a plug-and-play framework if you develop your own javascript ap
 
 These features will be activated as soon as I’ve got the code tidy enough that I’m not embarrassed at the thought of someone seeing it.
 
+**Techy Stuff To Impress Developers**
+
+
+For developers looking to understand the technical ingenuity of the Internet BS Detector, this section dives deeper into the codebase, its extensibility, and how it showcases best practices in software design.
+1. Fully Self-Contained and Portable
+
+The BS Detector is a single PHP file that packages all necessary scripts, styles, and assets within itself.
+*No Dependencies: The tool doesn’t rely on external libraries or resources, making it entirely self-contained.
+*Embedded Assets: Images (e.g., favicon, Facebook thumbnail) are encoded in base64 and included directly in the file.
+*Dynamic Adaptability: The tool automatically adjusts its functionality and URLs to match the server or environment where it’s hosted.
+
+2. Developer-Friendly Bookmarklet
+
+The bookmarklet is dynamically generated and adapts to the host environment.
+*Automatic Updates: The bookmarklet’s code is adjusted automatically to reflect the server where the tool is hosted.
+*Portability: Once installed, the bookmarklet works on any webpage without requiring additional setup.
+
+3. URL-Based Control
+
+Developers can interact with the tool programmatically via URL parameters.
+
+Here are some of the supported parameters:
+
+*?c=is: Generate and serve a custom search engine (OpenSearch plugin).
+*?c=fbt: Serve the embedded Facebook thumbnail image for sharing.
+*?c=dl: Download the PHP source code directly from the tool.
+*?c=vh: Display the version history.
+*?bs=your-query: Pass a query directly to the tool for immediate results.
+
+These parameters provide flexibility for testing, debugging, and customizing the tool.
+4. Built-In Helper Functions
+
+The codebase includes several reusable PHP and JavaScript functions to simplify customization:
+*PHP Functions
+**curPageURLNoParams(): Returns the base URL without query parameters.
+**makeSafe($string): Sanitizes a string for safe output, preventing XSS attacks.
+*q*ueryParameter(): Fetches the value of the bs parameter from the URL.
+
+*JavaScript Functions
+*getParams(): Returns a hash of the current URL parameters.
+*getQuery(): Extracts the value of the bs parameter from the URL.
+
+These functions make it easy to extend the tool’s functionality.
+5. Security and Best Practices
+*XSS Protection: User inputs and outputs are sanitized using makeSafe().
+*Encapsulation: URL handling is abstracted into helper functions to reduce errors and enhance security.
+*Error Management: PHP error reporting is configured to avoid exposing sensitive server details.
+
+6. Extensible Framework
+
+The BS Detector is not just a standalone tool—it’s a framework for deploying custom bookmarklets or web utilities.
+*Custom Code: Developers can add their own JavaScript, HTML, or PHP functionality directly into the tool.
+*Automatic Integration: Custom functionality is bundled into the existing framework and deployed as part of the bookmarklet.
+*Version Tracking: The tool includes a ?c=vh parameter to display version history, making it easy to track changes and updates.
+
+7. Novel Software Distribution Model
+
+The BS Detector introduces a unique approach to software distribution:
+*Self-Replicating Source: Web Users can download the PHP source code (?c=dl) through the front end and host their own copies.
+*Decentralized Updates: While not yet fully implemented, the tool is designed to notify users of upstream updates, enabling a decentralized network of self-updating instances.
+*Collaborative Customization: By allowing developers to embed their own functionality, the tool encourages experimentation and sharing.
+
+### Developer Use Cases
+**Build Custom Bookmarklets:** Leverage the built-in framework to create and deploy your own bookmarklets, tailored to specific needs or audiences.
+**Host Personalized Versions:** Deploy unique iterations of the BS Detector on your own server, with custom branding or additional features.
+**Learn Best Practices:** Study the tool’s implementation for insights into:
+*Portable software design.
+*Secure PHP and JavaScript coding.
+*Dynamic adaptation to different environments.
 * * *
 
-Internet BS Detector Documentation
+Internet BS Detector Complete Documentation
 ==================================
 
 Overview
