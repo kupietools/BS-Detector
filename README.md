@@ -160,6 +160,8 @@ For Users
 For Developers
 --------------
 
+This is an overview of the customization and functions of the KupieTools framework that powers the BS Detector. For compete instructions on including your own app code to take advantage of the framework's features, see the included file [HowToCreateYourOwnKupieToolsApp.md](HowToCreateYourOwnKupieToolsApp.md). 
+
 ### Features for Customization
 
 1.  **Customizable Framework:**
