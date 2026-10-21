@@ -41,7 +41,7 @@ Not all of these may be mentioned in the UI.
 
 /* If you work on this file, add lines to top of version history: */ 
 $user__versionHistory = "
-Oct 17, 2026 - Added the "fork me on github" banner, put "ignorance is a choice" quote on front page, and cleaned up some minor stuff.
+Oct 17, 2026 - Added the 'fork me on github' banner, put 'ignorance is a choice' quote on front page, and cleaned up some minor stuff.
 May 27, 2020 - fixed a ton of shit, which I dutifully recorded here in the history as I worked, and is now gone. Converted to work with https, added contact link, changed the first page layout to be a little more readable, replaced undefined indexes with ISSET() instead of '== undefined', added logo, much more. Compare against today's backup.
 December 1, 2016 - moved to domain bsdetector.info and updated internal references
 December 3, 2013 8:03:15 PM PDT - add warning about results page not loading in browsers that block mixed content and provide link to open in new window, bugfix for alert not appearing when bookmarklet triggered with no text selected. 
